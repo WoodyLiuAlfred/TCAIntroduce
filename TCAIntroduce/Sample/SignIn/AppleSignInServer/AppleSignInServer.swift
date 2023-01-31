@@ -14,19 +14,13 @@ struct AppleUser {
     let email: String?
     let name: PersonNameComponents?
     let nonce: String
-    
-    private init() {
-        self.identityToken = ""
-        self.user = ""
-        self.email = ""
-        self.name = PersonNameComponents()
-        self.nonce = ""
-    }
-    
-    static let test: AppleUser = .init()
 }
 
 protocol AppleSignInServer {
-    func tryStart() async throws -> AppleUser
-    func tryStart() -> AnyPublisher<AppleUser, Error>
+    
+    typealias Response = AppleUser
+    
+    func tryStart() async throws -> Response
+    
+    func tryStart() -> AnyPublisher<Response, Error>
 }
