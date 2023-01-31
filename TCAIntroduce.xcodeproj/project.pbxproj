@@ -23,6 +23,8 @@
 		5BC7163629890F50009B3815 /* MockKVTokenService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC7163529890F50009B3815 /* MockKVTokenService.swift */; };
 		5BC71638298912A2009B3815 /* AppleSignInServerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC71637298912A2009B3815 /* AppleSignInServerService.swift */; };
 		5BC7163A2989136F009B3815 /* FirebaseSignInServerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC716392989136F009B3815 /* FirebaseSignInServerService.swift */; };
+		5BC7163D2989148E009B3815 /* SignInReduce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC7163C2989148E009B3815 /* SignInReduce.swift */; };
+		5BC7163F2989162E009B3815 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC7163E2989162E009B3815 /* User.swift */; };
 		6251E877C7368B6590CE41D1 /* Pods_TCAIntroduce_TCAIntroduceUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F30A351B82CA35B11F74D3DE /* Pods_TCAIntroduce_TCAIntroduceUITests.framework */; };
 		BB45CD37F5D39A70A7B9D3DB /* Pods_TCAIntroduce.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D55E30514C9AF0D107B5828 /* Pods_TCAIntroduce.framework */; };
 		F05919BE811DD7175A6DB987 /* Pods_TCAIntroduceTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7DA562123B126CF1F19013 /* Pods_TCAIntroduceTests.framework */; };
@@ -68,6 +70,8 @@
 		5BC7163529890F50009B3815 /* MockKVTokenService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockKVTokenService.swift; sourceTree = "<group>"; };
 		5BC71637298912A2009B3815 /* AppleSignInServerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleSignInServerService.swift; sourceTree = "<group>"; };
 		5BC716392989136F009B3815 /* FirebaseSignInServerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseSignInServerService.swift; sourceTree = "<group>"; };
+		5BC7163C2989148E009B3815 /* SignInReduce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInReduce.swift; sourceTree = "<group>"; };
+		5BC7163E2989162E009B3815 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		69C05A13E24F447B1F78403F /* Pods-TCAIntroduce-TCAIntroduceUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCAIntroduce-TCAIntroduceUITests.release.xcconfig"; path = "Target Support Files/Pods-TCAIntroduce-TCAIntroduceUITests/Pods-TCAIntroduce-TCAIntroduceUITests.release.xcconfig"; sourceTree = "<group>"; };
 		806711D080FB0327228A170F /* Pods-TCAIntroduceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCAIntroduceTests.release.xcconfig"; path = "Target Support Files/Pods-TCAIntroduceTests/Pods-TCAIntroduceTests.release.xcconfig"; sourceTree = "<group>"; };
 		93CA4A6EB9DE8871DAD11BF5 /* Pods-TCAIntroduce.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCAIntroduce.release.xcconfig"; path = "Target Support Files/Pods-TCAIntroduce/Pods-TCAIntroduce.release.xcconfig"; sourceTree = "<group>"; };
@@ -184,9 +188,11 @@
 		5BC716272988F587009B3815 /* SignIn */ = {
 			isa = PBXGroup;
 			children = (
+				5BC7163B29891476009B3815 /* TCA_SignIn */,
 				5BC7162C2988FA06009B3815 /* KVTokenServer */,
 				5BC7162B2988F9EC009B3815 /* AppleSignInServer */,
 				5BC716282988F757009B3815 /* FirebaseSignInServer */,
+				5BC7163E2989162E009B3815 /* User.swift */,
 			);
 			path = SignIn;
 			sourceTree = "<group>";
@@ -216,6 +222,14 @@
 				5BC7163529890F50009B3815 /* MockKVTokenService.swift */,
 			);
 			path = KVTokenServer;
+			sourceTree = "<group>";
+		};
+		5BC7163B29891476009B3815 /* TCA_SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				5BC7163C2989148E009B3815 /* SignInReduce.swift */,
+			);
+			path = TCA_SignIn;
 			sourceTree = "<group>";
 		};
 		E52E4BCDA413182F5B8AF418 /* Frameworks */ = {
@@ -474,6 +488,8 @@
 				5BC716262988B620009B3815 /* SomeView.swift in Sources */,
 				5BC716302988FA8C009B3815 /* AppleSignInServer.swift in Sources */,
 				5BC71638298912A2009B3815 /* AppleSignInServerService.swift in Sources */,
+				5BC7163D2989148E009B3815 /* SignInReduce.swift in Sources */,
+				5BC7163F2989162E009B3815 /* User.swift in Sources */,
 				5BA744CE2987BF7000503E9B /* ContentView.swift in Sources */,
 				5BA744CC2987BF7000503E9B /* TCAIntroduceApp.swift in Sources */,
 				5BC716242988B5BE009B3815 /* SomeViewModel.swift in Sources */,
