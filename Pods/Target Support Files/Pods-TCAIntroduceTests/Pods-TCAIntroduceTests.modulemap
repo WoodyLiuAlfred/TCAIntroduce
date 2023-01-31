@@ -1,0 +1,6 @@
+framework module Pods_TCAIntroduceTests {
+  umbrella header "Pods-TCAIntroduceTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

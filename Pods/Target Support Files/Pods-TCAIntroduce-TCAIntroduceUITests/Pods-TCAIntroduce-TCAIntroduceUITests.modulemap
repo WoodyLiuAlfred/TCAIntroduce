@@ -1,0 +1,6 @@
+framework module Pods_TCAIntroduce_TCAIntroduceUITests {
+  umbrella header "Pods-TCAIntroduce-TCAIntroduceUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

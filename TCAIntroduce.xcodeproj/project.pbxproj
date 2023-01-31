@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,15 @@
 		5BA744DD2987BF7100503E9B /* TCAIntroduceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA744DC2987BF7100503E9B /* TCAIntroduceTests.swift */; };
 		5BA744E72987BF7100503E9B /* TCAIntroduceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA744E62987BF7100503E9B /* TCAIntroduceUITests.swift */; };
 		5BA744E92987BF7100503E9B /* TCAIntroduceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA744E82987BF7100503E9B /* TCAIntroduceUITestsLaunchTests.swift */; };
+		5BA744F72987C05700503E9B /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = 5BA744F62987C05700503E9B /* ComposableArchitecture */; };
+		5BC716242988B5BE009B3815 /* SomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC716232988B5BE009B3815 /* SomeViewModel.swift */; };
+		5BC716262988B620009B3815 /* SomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC716252988B620009B3815 /* SomeView.swift */; };
+		5BC7162A2988F775009B3815 /* FirebaseSignInServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC716292988F775009B3815 /* FirebaseSignInServer.swift */; };
+		5BC7162E2988FA1C009B3815 /* KVTokenServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC7162D2988FA1C009B3815 /* KVTokenServer.swift */; };
+		5BC716302988FA8C009B3815 /* AppleSignInServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC7162F2988FA8C009B3815 /* AppleSignInServer.swift */; };
+		6251E877C7368B6590CE41D1 /* Pods_TCAIntroduce_TCAIntroduceUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F30A351B82CA35B11F74D3DE /* Pods_TCAIntroduce_TCAIntroduceUITests.framework */; };
+		BB45CD37F5D39A70A7B9D3DB /* Pods_TCAIntroduce.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D55E30514C9AF0D107B5828 /* Pods_TCAIntroduce.framework */; };
+		F05919BE811DD7175A6DB987 /* Pods_TCAIntroduceTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F7DA562123B126CF1F19013 /* Pods_TCAIntroduceTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E83AD72B29995F84C5E3A7D /* Pods-TCAIntroduce.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCAIntroduce.debug.xcconfig"; path = "Target Support Files/Pods-TCAIntroduce/Pods-TCAIntroduce.debug.xcconfig"; sourceTree = "<group>"; };
+		30E269E795C138AFBBA88524 /* Pods-TCAIntroduce-TCAIntroduceUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCAIntroduce-TCAIntroduceUITests.debug.xcconfig"; path = "Target Support Files/Pods-TCAIntroduce-TCAIntroduceUITests/Pods-TCAIntroduce-TCAIntroduceUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3F7DA562123B126CF1F19013 /* Pods_TCAIntroduceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TCAIntroduceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D55E30514C9AF0D107B5828 /* Pods_TCAIntroduce.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TCAIntroduce.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BA744C82987BF7000503E9B /* TCAIntroduce.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TCAIntroduce.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BA744CB2987BF7000503E9B /* TCAIntroduceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCAIntroduceApp.swift; sourceTree = "<group>"; };
 		5BA744CD2987BF7000503E9B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +57,16 @@
 		5BA744E22987BF7100503E9B /* TCAIntroduceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TCAIntroduceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BA744E62987BF7100503E9B /* TCAIntroduceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCAIntroduceUITests.swift; sourceTree = "<group>"; };
 		5BA744E82987BF7100503E9B /* TCAIntroduceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TCAIntroduceUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5BC716232988B5BE009B3815 /* SomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeViewModel.swift; sourceTree = "<group>"; };
+		5BC716252988B620009B3815 /* SomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SomeView.swift; sourceTree = "<group>"; };
+		5BC716292988F775009B3815 /* FirebaseSignInServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseSignInServer.swift; sourceTree = "<group>"; };
+		5BC7162D2988FA1C009B3815 /* KVTokenServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KVTokenServer.swift; sourceTree = "<group>"; };
+		5BC7162F2988FA8C009B3815 /* AppleSignInServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleSignInServer.swift; sourceTree = "<group>"; };
+		69C05A13E24F447B1F78403F /* Pods-TCAIntroduce-TCAIntroduceUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCAIntroduce-TCAIntroduceUITests.release.xcconfig"; path = "Target Support Files/Pods-TCAIntroduce-TCAIntroduceUITests/Pods-TCAIntroduce-TCAIntroduceUITests.release.xcconfig"; sourceTree = "<group>"; };
+		806711D080FB0327228A170F /* Pods-TCAIntroduceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCAIntroduceTests.release.xcconfig"; path = "Target Support Files/Pods-TCAIntroduceTests/Pods-TCAIntroduceTests.release.xcconfig"; sourceTree = "<group>"; };
+		93CA4A6EB9DE8871DAD11BF5 /* Pods-TCAIntroduce.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCAIntroduce.release.xcconfig"; path = "Target Support Files/Pods-TCAIntroduce/Pods-TCAIntroduce.release.xcconfig"; sourceTree = "<group>"; };
+		D7CFB3AD9A66425F20175D7B /* Pods-TCAIntroduceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCAIntroduceTests.debug.xcconfig"; path = "Target Support Files/Pods-TCAIntroduceTests/Pods-TCAIntroduceTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F30A351B82CA35B11F74D3DE /* Pods_TCAIntroduce_TCAIntroduceUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TCAIntroduce_TCAIntroduceUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +74,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BA744F72987C05700503E9B /* ComposableArchitecture in Frameworks */,
+				BB45CD37F5D39A70A7B9D3DB /* Pods_TCAIntroduce.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F05919BE811DD7175A6DB987 /* Pods_TCAIntroduceTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +91,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6251E877C7368B6590CE41D1 /* Pods_TCAIntroduce_TCAIntroduceUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +105,8 @@
 				5BA744DB2987BF7100503E9B /* TCAIntroduceTests */,
 				5BA744E52987BF7100503E9B /* TCAIntroduceUITests */,
 				5BA744C92987BF7000503E9B /* Products */,
+				F110F5499644513E6EB38447 /* Pods */,
+				E52E4BCDA413182F5B8AF418 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,6 +123,7 @@
 		5BA744CA2987BF7000503E9B /* TCAIntroduce */ = {
 			isa = PBXGroup;
 			children = (
+				5BC716212988B575009B3815 /* Sample */,
 				5BA744CB2987BF7000503E9B /* TCAIntroduceApp.swift */,
 				5BA744CD2987BF7000503E9B /* ContentView.swift */,
 				5BA744CF2987BF7100503E9B /* Assets.xcassets */,
@@ -127,6 +157,81 @@
 			path = TCAIntroduceUITests;
 			sourceTree = "<group>";
 		};
+		5BC716212988B575009B3815 /* Sample */ = {
+			isa = PBXGroup;
+			children = (
+				5BC716272988F587009B3815 /* SignIn */,
+				5BC716222988B5A2009B3815 /* InjectProtocolViewModel */,
+			);
+			path = Sample;
+			sourceTree = "<group>";
+		};
+		5BC716222988B5A2009B3815 /* InjectProtocolViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5BC716232988B5BE009B3815 /* SomeViewModel.swift */,
+				5BC716252988B620009B3815 /* SomeView.swift */,
+			);
+			path = InjectProtocolViewModel;
+			sourceTree = "<group>";
+		};
+		5BC716272988F587009B3815 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				5BC7162C2988FA06009B3815 /* KVTokenServer */,
+				5BC7162B2988F9EC009B3815 /* AppleSignInServer */,
+				5BC716282988F757009B3815 /* FirebaseSignInServer */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		5BC716282988F757009B3815 /* FirebaseSignInServer */ = {
+			isa = PBXGroup;
+			children = (
+				5BC716292988F775009B3815 /* FirebaseSignInServer.swift */,
+			);
+			path = FirebaseSignInServer;
+			sourceTree = "<group>";
+		};
+		5BC7162B2988F9EC009B3815 /* AppleSignInServer */ = {
+			isa = PBXGroup;
+			children = (
+				5BC7162F2988FA8C009B3815 /* AppleSignInServer.swift */,
+			);
+			path = AppleSignInServer;
+			sourceTree = "<group>";
+		};
+		5BC7162C2988FA06009B3815 /* KVTokenServer */ = {
+			isa = PBXGroup;
+			children = (
+				5BC7162D2988FA1C009B3815 /* KVTokenServer.swift */,
+			);
+			path = KVTokenServer;
+			sourceTree = "<group>";
+		};
+		E52E4BCDA413182F5B8AF418 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D55E30514C9AF0D107B5828 /* Pods_TCAIntroduce.framework */,
+				F30A351B82CA35B11F74D3DE /* Pods_TCAIntroduce_TCAIntroduceUITests.framework */,
+				3F7DA562123B126CF1F19013 /* Pods_TCAIntroduceTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F110F5499644513E6EB38447 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0E83AD72B29995F84C5E3A7D /* Pods-TCAIntroduce.debug.xcconfig */,
+				93CA4A6EB9DE8871DAD11BF5 /* Pods-TCAIntroduce.release.xcconfig */,
+				30E269E795C138AFBBA88524 /* Pods-TCAIntroduce-TCAIntroduceUITests.debug.xcconfig */,
+				69C05A13E24F447B1F78403F /* Pods-TCAIntroduce-TCAIntroduceUITests.release.xcconfig */,
+				D7CFB3AD9A66425F20175D7B /* Pods-TCAIntroduceTests.debug.xcconfig */,
+				806711D080FB0327228A170F /* Pods-TCAIntroduceTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,6 +239,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5BA744EC2987BF7100503E9B /* Build configuration list for PBXNativeTarget "TCAIntroduce" */;
 			buildPhases = (
+				5A9209FBADEA5B38A571302A /* [CP] Check Pods Manifest.lock */,
 				5BA744C42987BF7000503E9B /* Sources */,
 				5BA744C52987BF7000503E9B /* Frameworks */,
 				5BA744C62987BF7000503E9B /* Resources */,
@@ -143,6 +249,9 @@
 			dependencies = (
 			);
 			name = TCAIntroduce;
+			packageProductDependencies = (
+				5BA744F62987C05700503E9B /* ComposableArchitecture */,
+			);
 			productName = TCAIntroduce;
 			productReference = 5BA744C82987BF7000503E9B /* TCAIntroduce.app */;
 			productType = "com.apple.product-type.application";
@@ -151,9 +260,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5BA744EF2987BF7100503E9B /* Build configuration list for PBXNativeTarget "TCAIntroduceTests" */;
 			buildPhases = (
+				6E8EE2101369015EE9A86267 /* [CP] Check Pods Manifest.lock */,
 				5BA744D42987BF7100503E9B /* Sources */,
 				5BA744D52987BF7100503E9B /* Frameworks */,
 				5BA744D62987BF7100503E9B /* Resources */,
+				566CC77440F9D27D225F5B76 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -169,6 +280,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5BA744F22987BF7100503E9B /* Build configuration list for PBXNativeTarget "TCAIntroduceUITests" */;
 			buildPhases = (
+				1F031E00359CC9AD7EC5EF32 /* [CP] Check Pods Manifest.lock */,
 				5BA744DE2987BF7100503E9B /* Sources */,
 				5BA744DF2987BF7100503E9B /* Frameworks */,
 				5BA744E02987BF7100503E9B /* Resources */,
@@ -207,7 +319,7 @@
 				};
 			};
 			buildConfigurationList = 5BA744C32987BF7000503E9B /* Build configuration list for PBXProject "TCAIntroduce" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -215,6 +327,9 @@
 				Base,
 			);
 			mainGroup = 5BA744BF2987BF7000503E9B;
+			packageReferences = (
+				5BA744F52987C05700503E9B /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+			);
 			productRefGroup = 5BA744C92987BF7000503E9B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -252,13 +367,104 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1F031E00359CC9AD7EC5EF32 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TCAIntroduce-TCAIntroduceUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		566CC77440F9D27D225F5B76 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TCAIntroduceTests/Pods-TCAIntroduceTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TCAIntroduceTests/Pods-TCAIntroduceTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TCAIntroduceTests/Pods-TCAIntroduceTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A9209FBADEA5B38A571302A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TCAIntroduce-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E8EE2101369015EE9A86267 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TCAIntroduceTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5BA744C42987BF7000503E9B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BC7162A2988F775009B3815 /* FirebaseSignInServer.swift in Sources */,
+				5BC7162E2988FA1C009B3815 /* KVTokenServer.swift in Sources */,
+				5BC716262988B620009B3815 /* SomeView.swift in Sources */,
+				5BC716302988FA8C009B3815 /* AppleSignInServer.swift in Sources */,
 				5BA744CE2987BF7000503E9B /* ContentView.swift in Sources */,
 				5BA744CC2987BF7000503E9B /* TCAIntroduceApp.swift in Sources */,
+				5BC716242988B5BE009B3815 /* SomeViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,6 +617,7 @@
 		};
 		5BA744ED2987BF7100503E9B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E83AD72B29995F84C5E3A7D /* Pods-TCAIntroduce.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -440,6 +647,7 @@
 		};
 		5BA744EE2987BF7100503E9B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93CA4A6EB9DE8871DAD11BF5 /* Pods-TCAIntroduce.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -469,6 +677,7 @@
 		};
 		5BA744F02987BF7100503E9B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7CFB3AD9A66425F20175D7B /* Pods-TCAIntroduceTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -489,6 +698,7 @@
 		};
 		5BA744F12987BF7100503E9B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 806711D080FB0327228A170F /* Pods-TCAIntroduceTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -509,6 +719,7 @@
 		};
 		5BA744F32987BF7100503E9B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30E269E795C138AFBBA88524 /* Pods-TCAIntroduce-TCAIntroduceUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -527,6 +738,7 @@
 		};
 		5BA744F42987BF7100503E9B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69C05A13E24F447B1F78403F /* Pods-TCAIntroduce-TCAIntroduceUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -583,6 +795,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5BA744F52987C05700503E9B /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5BA744F62987C05700503E9B /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5BA744F52987C05700503E9B /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5BA744C02987BF7000503E9B /* Project object */;
 }
