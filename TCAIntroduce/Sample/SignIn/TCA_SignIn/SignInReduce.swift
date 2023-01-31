@@ -12,6 +12,9 @@ import ComposableArchitecture
 struct SignInReduce {}
 
 extension SignInReduce {
+    
+    // MARK: Action
+    
     enum Action {
         case appleSignIn
         case signIn(email: String,
@@ -26,4 +29,27 @@ extension SignInReduce {
                           email: String,
                           idToken: String)
     }
+
+    // MARK: States
+
+    struct States {
+        var user: User
+    }
+    
+    // MARK: Environment
+    
+    struct Environment {
+        
+        let appleService: AppleSignInServer
+        
+        let firebaseService: FirebaseSignInServer
+        
+        let kvTokenService: KVTokenServer
+        
+        static let test: Environment = .init(appleService: MockAppleSignInService(),
+                                             firebaseService: MockFirebaseSignInService(),
+                                             kvTokenService: MockKVTokenService())
+    }
+    
+    
 }

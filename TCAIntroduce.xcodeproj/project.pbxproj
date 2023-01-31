@@ -21,8 +21,8 @@
 		5BC7162E2988FA1C009B3815 /* KVTokenServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC7162D2988FA1C009B3815 /* KVTokenServer.swift */; };
 		5BC716302988FA8C009B3815 /* AppleSignInServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC7162F2988FA8C009B3815 /* AppleSignInServer.swift */; };
 		5BC7163629890F50009B3815 /* MockKVTokenService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC7163529890F50009B3815 /* MockKVTokenService.swift */; };
-		5BC71638298912A2009B3815 /* AppleSignInServerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC71637298912A2009B3815 /* AppleSignInServerService.swift */; };
-		5BC7163A2989136F009B3815 /* FirebaseSignInServerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC716392989136F009B3815 /* FirebaseSignInServerService.swift */; };
+		5BC71638298912A2009B3815 /* MockAppleSignInService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC71637298912A2009B3815 /* MockAppleSignInService.swift */; };
+		5BC7163A2989136F009B3815 /* MockFirebaseSignInService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC716392989136F009B3815 /* MockFirebaseSignInService.swift */; };
 		5BC7163D2989148E009B3815 /* SignInReduce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC7163C2989148E009B3815 /* SignInReduce.swift */; };
 		5BC7163F2989162E009B3815 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC7163E2989162E009B3815 /* User.swift */; };
 		6251E877C7368B6590CE41D1 /* Pods_TCAIntroduce_TCAIntroduceUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F30A351B82CA35B11F74D3DE /* Pods_TCAIntroduce_TCAIntroduceUITests.framework */; };
@@ -68,8 +68,8 @@
 		5BC7162D2988FA1C009B3815 /* KVTokenServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KVTokenServer.swift; sourceTree = "<group>"; };
 		5BC7162F2988FA8C009B3815 /* AppleSignInServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleSignInServer.swift; sourceTree = "<group>"; };
 		5BC7163529890F50009B3815 /* MockKVTokenService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockKVTokenService.swift; sourceTree = "<group>"; };
-		5BC71637298912A2009B3815 /* AppleSignInServerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleSignInServerService.swift; sourceTree = "<group>"; };
-		5BC716392989136F009B3815 /* FirebaseSignInServerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseSignInServerService.swift; sourceTree = "<group>"; };
+		5BC71637298912A2009B3815 /* MockAppleSignInService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAppleSignInService.swift; sourceTree = "<group>"; };
+		5BC716392989136F009B3815 /* MockFirebaseSignInService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockFirebaseSignInService.swift; sourceTree = "<group>"; };
 		5BC7163C2989148E009B3815 /* SignInReduce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInReduce.swift; sourceTree = "<group>"; };
 		5BC7163E2989162E009B3815 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		69C05A13E24F447B1F78403F /* Pods-TCAIntroduce-TCAIntroduceUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TCAIntroduce-TCAIntroduceUITests.release.xcconfig"; path = "Target Support Files/Pods-TCAIntroduce-TCAIntroduceUITests/Pods-TCAIntroduce-TCAIntroduceUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -201,7 +201,7 @@
 			isa = PBXGroup;
 			children = (
 				5BC716292988F775009B3815 /* FirebaseSignInServer.swift */,
-				5BC716392989136F009B3815 /* FirebaseSignInServerService.swift */,
+				5BC716392989136F009B3815 /* MockFirebaseSignInService.swift */,
 			);
 			path = FirebaseSignInServer;
 			sourceTree = "<group>";
@@ -210,7 +210,7 @@
 			isa = PBXGroup;
 			children = (
 				5BC7162F2988FA8C009B3815 /* AppleSignInServer.swift */,
-				5BC71637298912A2009B3815 /* AppleSignInServerService.swift */,
+				5BC71637298912A2009B3815 /* MockAppleSignInService.swift */,
 			);
 			path = AppleSignInServer;
 			sourceTree = "<group>";
@@ -484,10 +484,10 @@
 				5BC7163629890F50009B3815 /* MockKVTokenService.swift in Sources */,
 				5BC7162A2988F775009B3815 /* FirebaseSignInServer.swift in Sources */,
 				5BC7162E2988FA1C009B3815 /* KVTokenServer.swift in Sources */,
-				5BC7163A2989136F009B3815 /* FirebaseSignInServerService.swift in Sources */,
+				5BC7163A2989136F009B3815 /* MockFirebaseSignInService.swift in Sources */,
 				5BC716262988B620009B3815 /* SomeView.swift in Sources */,
 				5BC716302988FA8C009B3815 /* AppleSignInServer.swift in Sources */,
-				5BC71638298912A2009B3815 /* AppleSignInServerService.swift in Sources */,
+				5BC71638298912A2009B3815 /* MockAppleSignInService.swift in Sources */,
 				5BC7163D2989148E009B3815 /* SignInReduce.swift in Sources */,
 				5BC7163F2989162E009B3815 /* User.swift in Sources */,
 				5BA744CE2987BF7000503E9B /* ContentView.swift in Sources */,

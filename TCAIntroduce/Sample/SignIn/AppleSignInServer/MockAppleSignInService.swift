@@ -1,5 +1,5 @@
 //
-//  AppleSignInServerService.swift
+//  MockAppleSignInService.swift
 //  TCAIntroduce
 //
 //  Created by Woody Liu on 2023/1/31.
@@ -20,7 +20,7 @@ extension AppleSignInServer.Response {
     fileprivate static let test: AppleUser = .init()
 }
 
-struct AppleSignInServerService: AppleSignInServer {
+struct MockAppleSignInService: AppleSignInServer {
     
     func tryStart() async throws -> AppleUser {
         try await Task.sleep(for: .seconds(1))
