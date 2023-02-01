@@ -24,7 +24,12 @@ struct MockFirebaseSignInService: FirebaseSignInServer {
     }
     
     func signIn(with email: String, password: String) -> AnyPublisher<Response, Error> {
-        return publisherResponse()
+        return publisherResponse().map { response -> Response in
+            var response = response
+            response.name = "EmailSignIN"
+            response.email = email
+            return response
+        }.eraseToAnyPublisher()
     }
     
     func signIn(withProviderID id: String, idToken token: String, nonce: String?) async throws -> Response {
@@ -40,7 +45,10 @@ struct MockFirebaseSignInService: FirebaseSignInServer {
     }
     
     func update(_ response: Response, name: String, email: String) -> AnyPublisher<Response, Error> {
-        return publisherResponse()
+        var response = response
+        response.name = name
+        response.email = email
+        return publisherResponse().map { _ in response }.eraseToAnyPublisher()
     }
     
     func signOut() {}
